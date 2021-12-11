@@ -2,7 +2,7 @@ class Settings {
     constructor(root) {
         this.root = root;
         this.platform = "WEB";
-        if (this.root.AcWingOS) this.paltform = "ACAPP";
+        if (this.root.AcWingOS) this.platform = "ACAPP";
         this.username = "";
         this.photo = "";
         
